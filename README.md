@@ -11,18 +11,3 @@ Allereerst ben ik begonnen door een simpel comando te geven: "Create a chatbot f
 Ik wist echter dat het mogelijk is, hierom dacht ik dat het aan de manier kan liggen waarop ik het gevraagd heb. 
 Bij mijn volgende poging heb ik hetvolgende gevraagd: "Can you send me a code I can use in python to create a chatbot?" Het antwoord wat ik kreeg was als volgt:
 "
-from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
-
-chatbot = ChatBot("My Bot")
-
-conversation = [    "Hello",    "Hi there!",    "How are you doing?",    "I'm doing great.",    "That is good to hear",    "Thank you.",    "You're welcome."]
-
-trainer = ListTrainer(chatbot)
-
-trainer.train(conversation)
-
-response = chatbot.get_response("Good morning!")
-
-print(response)
-"
