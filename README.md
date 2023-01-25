@@ -2,6 +2,13 @@
 
 Allereerst heb ik onderzoek gedaan naar de verschillende chatbots die er bestaan. 
 Ik ben hier tot de conclusie gekomen dat het verschil van een ingewikkelde en simpele chatbot erg groot is.
+Ook zijn er veel verschillende libraries waar uit gekozen kan worden, ik zal verder in het verslag toelichten waarom ik voor de library NLTK heb gekozen.
+
+**ChatterBot** is een Python-bibliotheek die het gemakkelijk maakt om geautomatiseerde antwoorden te genereren op de invoer van een gebruiker. Het gebruikt een selectie van machine learning-algoritmen om verschillende soorten antwoorden te produceren. Deze bibliotheek is gemakkelijk te gebruiken en heeft goede documentatie.
+**NLTK** is de Natural Language Toolkit, een Python-bibliotheek die tools biedt voor het werken met menselijke taalgegevens. Het bevat modules voor tekstverwerking, parsing, semantische redenering en wrappers voor verschillende populaire NLP-bibliotheken.
+**Rasa** is een open-source framework voor het bouwen van conversational AI. Het biedt een set tools voor het bouwen, trainen en deployen van aangepaste chatbots. Rasa is gebouwd met Python en is gemakkelijk te gebruiken.
+**TensorFlow** is een open-source machine learning framework ontwikkeld door Google. Het kan worden gebruikt om een ​​breed scala aan machine learning-modellen te bouwen, waaronder chatbots.
+
 Er bestaan chatbots zoals bijvoorbeeld ChatGPT, welke zelflerend zijn en telkens een ander antwoord geven. 
 Er bestaan verder ook nog chatbots welke een bepaald aantal opties geeft waaruit gekozen kunnen worden, hier kunnen alleen bepaalde vragen en antwoorden worden gegeven. 
 Het is te lastig om zelf een code te schrijven. Ik ben begonnen door op internet onderzoek te doen naar het maken van chatbots. Hier ben ik erachter gekomen dat er mensen zijn die ChatGPT gebruiken om code te schrijven. Hierom was ik van plan dit te proberen.
@@ -10,3 +17,8 @@ Allereerst ben ik begonnen door een simpel comando te geven: "Create a chatbot f
 
 Ik wist echter dat het mogelijk is, hierom dacht ik dat het aan de manier kan liggen waarop ik het gevraagd heb. 
 Bij mijn volgende poging heb ik hetvolgende gevraagd: "Can you send me a code I can use in python to create a chatbot?" Het antwoord wat ik kreeg was als volgt:
+zie 'Code Chatbot poging 1'
+
+Deze code maakt een nieuwe chatbot-instantie aan genaamd "Example Bot" en traint deze met behulp van het corpus van groeten en gesprekken uit de ChatterBot-bibliotheek. Zodra de training is voltooid, is de chatbot in staat om op gebruikersinvoer te reageren.
+De bot kunt ook worden getraind met eigen gegevens, bijvoorbeeld met een CSV-bestand, door gebruik te maken van de ListTrainer in plaats van ChatterBotCorpusTrainer en het bestandspad door te geven aan de train-methode.
+
