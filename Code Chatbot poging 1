@@ -2,7 +2,26 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # Create a new chatbot
-chatbot = ChatBot("Example Bot")
+chatbot = ChatBot(
+    "Example Bot",
+    storage_adapter="chatterbot.storage.SQLStorageAdapter",
+    logic_adapters=[
+        "chatterbot.logic.BestMatch",
+        {
+            'import_path': 'chatterbot.logic.LowConfidenceAdapter',
+            'threshold': 0.65,
+            'default_response': 'I am sorry, but I am not able to understand your input.'
+        }
+    ],
+    preprocessors=[
+        'chatterbot.preprocessors.clean_whitespace'
+    ],
+    filters=[
+        'chatterbot.filters.RepetitiveResponseFilter'
+    ],
+    input_adapter='chatterbot.input.TerminalAdapter',
+    output_adapter='chatterbot.output.TerminalAdapter'
+)
 
 # Create a new trainer for the chatbot
 trainer = ChatterBotCorpusTrainer(chatbot)
@@ -12,5 +31,11 @@ trainer.train("chatterbot.corpus.english.greetings",
               "chatterbot.corpus.english.conversations")
 
 # Get a response to a user's input
-response = chatbot.get_response("Hello, how are you today?")
-print(response)
+while True:
+    try:
+        user_input = input("You: ")
+        bot_response = chatbot.get_response(user_input)
+        print("Bot: ",bot_response)
+
+    except (KeyboardInterrupt, EOFError, SystemExit):
+        break
