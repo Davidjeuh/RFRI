@@ -29,7 +29,7 @@ Na chatterbot te installeren kreeg ik echter weer dezelfde error. Na gesproken t
 De code die ik gekregen is als volgt:
 zie '**_Code Chatbot poging 2_**'
 
-Na het gebruiken van deze code is het gelukt om succesvol een chatbot te maken, een nadeel van deze chatbot is dat er erg weinig mogelijkheden zijn tot het voeren van een gesprek. De chatbot kan alleen voorgeprogrammeerde antwoorden geven en op besloten antwoorden. Deze chatbot zou gebruikt kunnen worden op bijvoorbeeld een customer service site waar het bedrijf van te voren wilt weten met wie ze te maken hebben of waar hun vragen over gaan.
+Na het gebruiken van deze code is het gelukt om succesvol een chatbot te maken, een nadeel van deze chatbot is dat er erg weinig mogelijkheden zijn tot het voeren van een gesprek. De chatbot kan alleen voorgeprogrammeerde antwoorden geven en op besloten antwoorden. Deze chatbot zou gebruikt kunnen worden op bijvoorbeeld een customer service site waar het bedrijf van te voren wilt weten met wie ze te maken hebben of waar hun vragen over gaan. Om het te testen kan deze code worden gekopieerd en geplakt in jupyter notebook. 
 
 ChatGPT (versie 1.0) OpenAI (2021).
 
