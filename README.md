@@ -17,8 +17,9 @@ Allereerst ben ik begonnen door een simpel comando te geven: "Create a chatbot f
 
 Ik wist echter dat het mogelijk is, hierom dacht ik dat het aan de manier kan liggen waarop ik het gevraagd heb. 
 Bij mijn volgende poging heb ik hetvolgende gevraagd: "Can you send me a code I can use in python to create a chatbot?" Het antwoord wat ik kreeg was als volgt:
-zie 'Code Chatbot poging 1'
+zie '**_Code Chatbot poging 1_**'
 
 Deze code maakt een nieuwe chatbot-instantie aan genaamd "Example Bot" en traint deze met behulp van het corpus van groeten en gesprekken uit de ChatterBot-bibliotheek. Zodra de training is voltooid, is de chatbot in staat om op gebruikersinvoer te reageren.
 De bot kunt ook worden getraind met eigen gegevens, bijvoorbeeld met een CSV-bestand, door gebruik te maken van de ListTrainer in plaats van ChatterBotCorpusTrainer en het bestandspad door te geven aan de train-methode.
 
+Na het gebruiken van '**_Code Chatbot poging 1_**' kreeg ik deze error: '
