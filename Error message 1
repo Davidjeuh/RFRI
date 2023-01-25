@@ -1,1 +1,9 @@
+ModuleNotFoundError                       Traceback (most recent call last)
+/tmp/ipykernel_19057/833625566.py in <module>
+----> 1 from chatterbot import ChatBot
+      2 from chatterbot.trainers import ChatterBotCorpusTrainer
+      3 
+      4 # Create a new chatbot
+      5 chatbot = ChatBot(
 
+ModuleNotFoundError: No module named 'chatterbot'
