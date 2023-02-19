@@ -1,5 +1,8 @@
 # RFRI
 
+De volgende link gaat naar mijn chatbot. Hieronder zijn de stappen omschreven die zijn ondernomen om de chatbot te maken.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Davidjeuh/RFRI/HEAD)
+
 Allereerst heb ik onderzoek gedaan naar de verschillende chatbots die er bestaan. 
 Ik ben hier tot de conclusie gekomen dat het verschil van een ingewikkelde en simpele chatbot erg groot is.
 Ook zijn er veel verschillende libraries waar uit gekozen kan worden, ik zal verder in het verslag toelichten waarom ik voor de library NLTK heb gekozen.
